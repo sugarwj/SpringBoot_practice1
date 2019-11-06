@@ -7,7 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/first")
 public class JspAction {
 
-    //���ͱ����޸�
+    //ÍÆËÍ±¾µØÐÞ¸Ä
+    
+    // 拉取远程仓库的修改
 
     @RequestMapping("/jsp")
     public  String jsp() throws Exception{
